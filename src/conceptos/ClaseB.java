@@ -15,6 +15,7 @@ public class ClaseB extends ClaseA{
 
     @Override
     public String toString() {
-        return "Num1: " + num1 + "\nNum2: " + getNum2() + "\nNum3: " + num3;
+        //return "Num1: " + num1 + "\nNum2: " + getNum2() + "\nNum3: " + num3;
+        return super.toString() +  "\nNum3: " +num3;
     }
 }
