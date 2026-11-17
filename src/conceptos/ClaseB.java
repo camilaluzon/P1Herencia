@@ -8,4 +8,13 @@ public class ClaseB extends ClaseA{
         System.out.println("Constructor ClaseB");
         this.num3 = num3;
     }
+
+    public int getNum3() {
+        return num3;
+    }
+
+    @Override
+    public String toString() {
+        return "Num1: " + getNum1() + "\nNum2: " + getNum2() + "\nNum3: " + num3;
+    }
 }
